@@ -3,42 +3,94 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Gallery1": 5,
+    "galleryTemplate1": 6,
+    "Home": 13,
     "Host": 3,
-    "Screen1": 4
+    "Load": 14,
+    "LoadData": 4,
+    "NextArrow1": 9,
+    "Rectangle1": 7,
+    "Separator1": 12,
+    "Subtitle1": 10,
+    "Subtitle1_1": 11,
+    "Title1": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2024 10:31:20",
+  "HeaderLastSavedDateTimeUTC": "01/05/2024 09:44:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "c1939165-c29e-4c94-ba6e-b6b72b0672ea": "\"/providers/microsoft.powerapps/apis/shared_hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82/connections/946fddf66cca453fb2e29a9091dc76e6\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 1,
+    "D365HoccoCartconfiguration-Sandbox": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 4,
+    "gallery": 0,
+    "icon": 3,
+    "label": 2,
+    "rectangle": 1
+  },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
+    "Home": {},
     "Host": {},
-    "Screen1": {}
+    "Load": {},
+    "LoadData": {},
+    "NextArrow1": {},
+    "Rectangle1": {},
+    "Separator1": {},
+    "Subtitle1": {},
+    "Subtitle1_1": {},
+    "Title1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Gallery1": 1,
+    "galleryTemplate1": 2,
+    "Home": 0,
     "Host": 0,
-    "Screen1": 0
+    "Load": 0,
+    "LoadData": 0,
+    "NextArrow1": 5,
+    "Rectangle1": 3,
+    "Separator1": 8,
+    "Subtitle1": 6,
+    "Subtitle1_1": 7,
+    "Title1": 4
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0184053,
-    "ControlCount": {}
+    "AnalysisLoadTime": 0.1154734,
+    "ControlCount": {
+      "button": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 1,
+      "label": 3,
+      "rectangle": 2,
+      "screen": 2
+    },
+    "DeserializationLoadTime": 0.8110031
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

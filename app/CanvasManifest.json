@@ -95,7 +95,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -110,11 +110,11 @@
     "DocumentLayoutWidth": 1366,
     "DocumentType": "App",
     "EnableInstrumentation": false,
-    "FileID": "95da8f74-b95c-4ad9-aca5-02cb011f5102",
-    "Id": "95da8f74-b95c-4ad9-aca5-02cb011f5102",
+    "FileID": "d0b0de05-19d7-49af-beac-a8b13b710a77",
+    "Id": "d0b0de05-19d7-49af-beac-a8b13b710a77",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "API POC",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
@@ -132,6 +132,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Home",
+    "LoadData"
   ]
 }
