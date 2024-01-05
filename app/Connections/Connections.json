@@ -1,0 +1,25 @@
+{
+  "c1939165-c29e-4c94-ba6e-b6b72b0672ea": {
+    "appActions": [
+      "CartConfigurations"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "authenticationType": "oAuthClientCredentials",
+      "displayName": "HOCCO-API-Sandbox-Postman",
+      "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82",
+      "isCustomApiConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82/connections/946fddf66cca453fb2e29a9091dc76e6"
+    },
+    "datasets": {},
+    "dataSources": [
+      "D365HoccoCartconfiguration-Sandbox"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c1939165-c29e-4c94-ba6e-b6b72b0672ea"
+  }
+}

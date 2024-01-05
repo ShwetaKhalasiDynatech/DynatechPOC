@@ -1,0 +1,9 @@
+Home As screen:
+
+    Load As button:
+        OnSelect: =Navigate(LoadData);
+        Text: ="Load Data"
+        X: =36
+        Y: =32
+        ZIndex: =1
+

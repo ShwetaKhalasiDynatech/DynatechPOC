@@ -1,0 +1,75 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="D365HoccoCartconfiguration-Sandbox" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="D365 Hocco Cart configuration - Sandbox">D365 Hocco Cart configuration - Sandbox</doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="CartConfigurations_responses_default_def__ux40_odata_context_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def__ux40_odata_etag_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_dataAreaId_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_Company_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_Code_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_ReceiveSite_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_ReceiveWarehouse_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_Vendor_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_ProcessType_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_CustomerAccount_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_DT_Date_def" />
+      <integer name="CartConfigurations_responses_default_def_value_def_items_def_OpenTime_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_PaymentGateway_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_SupplySite_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_Day_def" />
+      <integer name="CartConfigurations_responses_default_def_value_def_items_def_CloseTime_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_EmpCode_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_CustomerName_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_SupplyWarehouse_def" />
+      <string name="CartConfigurations_responses_default_def_value_def_items_def_License_def" />
+      <object name="CartConfigurations_responses_default_def_value_def_items_def">
+        <property name="@odata.etag" type="string" />
+        <property name="dataAreaId" type="string" />
+        <property name="Company" type="string" />
+        <property name="Code" type="string" />
+        <property name="ReceiveSite" type="string" />
+        <property name="ReceiveWarehouse" type="string" />
+        <property name="Vendor" type="string" />
+        <property name="ProcessType" type="string" />
+        <property name="CustomerAccount" type="string" />
+        <property name="DT_Date" type="string" />
+        <property name="OpenTime" type="integer" />
+        <property name="PaymentGateway" type="string" />
+        <property name="SupplySite" type="string" />
+        <property name="Day" type="string" />
+        <property name="CloseTime" type="integer" />
+        <property name="EmpCode" type="string" />
+        <property name="CustomerName" type="string" />
+        <property name="SupplyWarehouse" type="string" />
+        <property name="License" type="string" />
+      </object>
+      <array typeRef="CartConfigurations_responses_default_def_value_def_items_def" name="CartConfigurations_responses_default_def_value_def" />
+      <object name="CartConfigurations_responses_default_def">
+        <property name="@odata.context" type="string" />
+        <property name="value" typeRef="CartConfigurations_responses_default_def_value_def" />
+      </object>
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://india-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82">
+    <resource path="/{connectionId}/data/DT_DMSCartConfigurationEntity">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="CartConfigurations" actionName="CartConfigurations" siena:isDeprecated="false">
+        <doc title="CartConfigurations&#xA;CartConfigurations" />
+        <request>
+          <param style="query" name="cross-company" type="xs:boolean" />
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:CartConfigurations_responses_default_def" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>
