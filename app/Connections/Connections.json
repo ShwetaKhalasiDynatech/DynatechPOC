@@ -3,6 +3,13 @@
     "connectionRef": {
       "authenticationType": "oAuthClientCredentials",
       "displayName": "HOCCO-API-Sandbox-Postman",
+      "executionRestrictions": {
+        "apiId": "/providers/microsoft.powerapps/apis/shared_hocco-2dapi-2dsandbox-2dpostman-5f636ff22519100-a2f7d2d809c3309a",
+        "appVer": "3.23122.17",
+        "modifiedOn": "2024-01-08 07:30:38",
+        "policy": "{\"type\":\"action\",\"dataSources\":{\"actions\":[\"cartconfigurations\"]}}",
+        "version": 1
+      },
       "iconUri": "https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png",
       "id": "/providers/microsoft.powerapps/apis/shared_hocco-2dapi-2dsandbox-2dpostman-5f636ff22519100-a2f7d2d809c3309a",
       "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_hocco-2dapi-2dsandbox-2dpostman-5f636ff22519100-a2f7d2d809c3309a/connections/6ab65020ed654b5e885ac35a38ba3c18"
