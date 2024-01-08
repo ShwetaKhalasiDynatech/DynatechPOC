@@ -1,7 +1,7 @@
-<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="D365HoccoCartconfiguration-Sandbox" xmlns="http://wadl.dev.java.net/2009/02">
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://uk-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f636ff22519100-a2f7d2d809c3309a" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="D365HoccoCartconfiguration-Sandbox" xmlns="http://wadl.dev.java.net/2009/02">
   <doc title="D365 Hocco Cart configuration - Sandbox">D365 Hocco Cart configuration - Sandbox</doc>
   <grammars>
-    <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <jsonTypes targetNamespace="https://uk-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f636ff22519100-a2f7d2d809c3309a" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
       <string name="CartConfigurations_responses_default_def__ux40_odata_context_def" />
       <string name="CartConfigurations_responses_default_def_value_def_items_def__ux40_odata_etag_def" />
       <string name="CartConfigurations_responses_default_def_value_def_items_def_dataAreaId_def" />
@@ -50,7 +50,7 @@
       </object>
     </jsonTypes>
   </grammars>
-  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://india-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82">
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://uk-001.azure-apim.net/apim/hocco-2dapi-2dsandbox-2dpostman-5f636ff22519100-a2f7d2d809c3309a">
     <resource path="/{connectionId}/data/DT_DMSCartConfigurationEntity">
       <param style="template" name="connectionId" type="xs:string" required="true" />
       <method siena:requiresAuthentication="true" name="GET" id="CartConfigurations" actionName="CartConfigurations" siena:isDeprecated="false">
@@ -65,7 +65,7 @@
     </resource>
   </resources>
   <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
-    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_hocco-2dapi-2dsandbox-2dpostman-5f62dc2287af251-de635ea6833d3e82" />
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_hocco-2dapi-2dsandbox-2dpostman-5f636ff22519100-a2f7d2d809c3309a" />
   </authenticationProviders>
   <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
     <variable name="connectionId">
